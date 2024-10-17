@@ -47,5 +47,7 @@ public class RugRotation : MonoBehaviour
         {
             transform.Rotate(0, 0, -Time.deltaTime * speed, Space.Self);
         }
+
+
     }
 }
